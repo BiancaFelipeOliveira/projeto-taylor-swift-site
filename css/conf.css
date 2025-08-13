@@ -1,0 +1,115 @@
+/* CSS externo */
+
+/* Seletor de Tipo */
+p {
+    color:rgb(80, 82, 212);
+    font-size: medium;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Seletor Universal */
+*{
+    background-color: rgb(0, 0, 0);
+}
+
+
+nav{
+    background-color: rgba(0, 4, 223, 0.904);
+    font-size: medium;
+    font-family: Tahoma;
+    height: 50px;
+}
+
+
+strong {
+    color:deepskyblue;
+    font-size: large;
+}
+
+
+em{
+    color:lightskyblue;
+    font-size: large;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+}
+
+/* Seletores de Grupo */
+h1,h2,h3,h4{
+    color:dodgerblue;
+    font-style: Tahoma;
+}
+
+
+/* Seletor Descendente*/
+nav a{
+    /*Quando tiver um elemento a dentro da nav, a configuração será assim, se a tag a estiver fora, não vai ter essa configuração*/
+    background-color: rgb(17, 5, 187);
+    color:white;
+    text-decoration: none; /*Não vai ter o sublinhado!*/
+    text-align:center;
+    height: 45px;
+    font-family: 'Lucida Sans';
+    padding: 3px;
+}
+
+
+ol li{
+    background-color: rgb(46, 43, 226);
+    text-decoration: none;
+    font-style: oblique;
+    font-family: Verdana;
+    color:aliceblue
+}
+
+/* Seletor Pai > Filho*/
+ul>li{
+    background-color: darkmagenta;
+    text-decoration: underline;
+    font-family: Verdana;
+    color:rgb(255, 255, 255);
+    font-style:unset;
+}
+footer>ul{
+    background-color: rgb(30, 0, 139);
+    /*herdei a cor da fonte do pai*/
+}
+
+/* Classe Genérica */
+/*Pode ser aplicada em qualquer elemento*/
+.teste{
+    background-color: ghostwhite;
+    color:darkmagenta;
+    font-size: large;
+    font-family:'Franklin Gothic Medium';
+    text-decoration: none;
+    font-style: italic;
+    padding: 5px;
+}
+
+/* Classe por Elemento */
+/*Pode ser aplicada em apenas um elemento*/
+header.cabecalho{
+    background-color: darkmagenta;
+    color: azure;
+    height: 100px;
+    text-align: left;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS';
+    padding: 5px;
+    margin: 1px;
+}
+
+/* Seletor de Id */
+#gato{
+    font-size: medium;
+    color:rgb(119, 7, 224);
+    background-color: azure;
+    font-weight: bold;
+}
+
+/*margin: 0 auto; conteudo alinhado no centro*/
